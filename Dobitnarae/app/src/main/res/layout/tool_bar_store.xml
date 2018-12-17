@@ -1,0 +1,79 @@
+<android.support.v7.widget.Toolbar
+    android:id="@+id/tool_bar_store"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@drawable/border_bottom_layout_item"
+    app:layout_collapseMode="pin">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="match_parent"
+            android:gravity="start|center">
+            <ImageButton
+                android:id="@+id/backButton"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/left_arrow"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/app_name"
+            android:textColor="@color/titleColor"
+            android:id="@+id/toolbar_title"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_marginRight="16dp"
+            android:fontFamily="@font/jejuhallasan"
+            />
+        <LinearLayout
+            android:id="@+id/store_select_sex_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="end"
+            android:layout_marginRight="10dp"
+            android:visibility="invisible">
+            <LinearLayout
+                android:id="@+id/store_clothes_sex_man"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/store_clothes_sex_man_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border_bottom_layout_item_thick_blue"
+                    android:padding="7dp"
+                    android:text="@string/man_text"
+                    android:textColor="#ff0000ff"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:gravity="end"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/store_clothes_sex_woman"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/store_clothes_sex_woman_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="7dp"
+                    android:text="@string/woman_text"
+                    android:textColor="@color/darkergrey"
+                    android:gravity="start"
+                    android:textSize="15dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.design.widget.CoordinatorLayout>
+
+</android.support.v7.widget.Toolbar>

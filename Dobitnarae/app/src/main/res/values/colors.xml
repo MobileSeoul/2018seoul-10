@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#cfcfcf</color>
+    <color name="colorAccent">#24292e</color>
+    <color name="titleColor">#24292e</color>
+    <color name="tabSelectedTextColor">#000000</color>
+    <color name="tabTextColor">#606060</color>
+    <color name="contentColor">#606060</color>
+    <color name="red">#ffff0000</color>
+    <color name="green">#ff00ff00</color>
+    <color name="blue">#ff0000ff</color>
+    <color name="black">#00ffffff</color>
+    <color name="darkergrey">#aaa</color>
+    <color name="orange">#ff9900</color>
+    <color name="cardviewbg">#d7d7d7</color>
+    <color name="white">#fff</color>
+    <color name="appMainColor">#ff8484</color>
+    <color name="storeOpeningColor">#339738</color>
+    <color name="lineColor">#EEEEEE</color>
+    <color name="storeClosingColor">#f94c4c</color>
+    <color name="baseBackgroundColor">#EEEEEE</color>
+    <color name="acceptOrder">#339738</color>
+    <color name="rejectOrder">#f94c4c</color>
+    <color name="pendingOrder">#8f8f8f</color>
+</resources>

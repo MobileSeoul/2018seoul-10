@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StoreInfoFragment"
+    android:paddingRight="@dimen/padding_horizontal"
+    android:paddingLeft="@dimen/padding_horizontal"
+    android:scrollbars="none"
+    android:background="#fff">
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/nestedScorllView_store"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="@dimen/content_margin_vertical">
+
+                <TextView
+                    android:id="@+id/title_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/store_name_text"
+                    android:textColor="#000"
+                    android:textSize="@dimen/info_title"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/content_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="내용없음"
+                    android:textColor="@color/contentColor"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/info_content"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/content_margin_vertical"
+                android:layout_marginBottom="@dimen/content_margin_vertical">
+
+                <TextView
+                    android:id="@+id/title_intro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/store_intro_text"
+                    android:textColor="#000"
+                    android:textSize="@dimen/info_title"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/content_intro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="내용없음"
+                    android:textColor="@color/contentColor"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/info_content"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/content_margin_vertical"
+                android:layout_marginBottom="@dimen/content_margin_vertical">
+
+                <TextView
+                    android:id="@+id/title_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/store_info_text"
+                    android:textColor="#000"
+                    android:textSize="@dimen/info_title"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/content_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="내용없음"
+                    android:textColor="@color/contentColor"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/info_content"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/content_margin_vertical"
+                android:layout_marginBottom="@dimen/content_margin_vertical">
+
+                <TextView
+                    android:id="@+id/title_sales_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/store_phone_text"
+                    android:textColor="#000"
+                    android:textSize="@dimen/info_title"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/content_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="내용없음"
+                    android:textColor="@color/contentColor"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/info_content"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/content_margin_vertical"
+                android:layout_marginBottom="@dimen/content_margin_vertical">
+
+                <TextView
+                    android:id="@+id/title_owner_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/store_admin_text"
+                    android:textColor="#000"
+                    android:textSize="@dimen/info_title"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/content_owner_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="내용없음"
+                    android:textColor="@color/contentColor"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/info_content"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/content_margin_vertical"
+                android:layout_marginBottom="@dimen/content_margin_vertical">
+
+                <TextView
+                    android:id="@+id/title_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/store_locationinfo_text"
+                    android:textColor="#000"
+                    android:textSize="@dimen/info_title"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/content_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="내용없음"
+                    android:textColor="@color/contentColor"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/info_content"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/naver_map_layout"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">두빛나래</string>
+    <string name="store_tab_text_1">StoreInfo</string>
+    <string name="store_tab_text_2">HanBok</string>
+    <string name="tab_text_1">StoreManagement</string>
+    <string name="tab_text_2">ItemManagement</string>
+    <string name="tab_text_3">Order</string>
+    <string name="tab_text_3.1">NotComfirm</string>
+    <string name="tab_text_3.2">Confirm</string>
+    <string name="str_done">Complete</string>
+    <string name="reserve_text">Rent</string>
+    <string name="tmp">It\'s a nice day to go around in HanBok.</string>
+    <string name="login">Login</string>
+    <string name="signup">SignUp</string>
+    <string name="store_location_text" translatable="false">Store Location</string>
+    <string name="hanbok_recommand">Today\'s recommendation Hanbok</string>
+    <string name="gogung_search">Learn the Old Palace</string>
+    <string name="weather_location">Jongno-gu, Seoul</string>
+    <string name="copyright">Copyright</string>
+    <string name="logout">Logout</string>
+    <string name="register_id">ID(english, number only)</string>
+    <string name="register_pw">Password(8~20)</string>
+    <string name="register_pw_confirm">Password Confirm</string>
+    <string name="register_name">Name</string>
+    <string name="register_phone">Phone(010-0000-0000)</string>
+    <string name="register_admin">Are you an administrator?</string>
+    <string name="mypage">MyInfo</string>
+    <string name="reservation_list">Reservation List</string>
+    <string name="mypage_info">MyPage</string>
+    <string name="mypage_id">ID</string>
+    <string name="mypage_pw">PW</string>
+    <string name="mypage_name">Name</string>
+    <string name="mypage_phone">Phone</string>
+    <string name="mypage_change">Change</string>
+    <string name="total_text">"A Total "</string>
+    <string name="piece_text">" Piece Reservation Fee"</string>
+    <string name="basket_text">Basket</string>
+    <string name="soldout_text">Sold Out</string>
+    <string name="total_fee">Total Reservation Fee</string>
+    <string name="cnt_text">Count</string>
+    <string name="fee_text">Fee</string>
+    <string name="man_text">M</string>
+    <string name="woman_text">F</string>
+    <string name="store_name_text">Store Name</string>
+    <string name="store_intro_text">Intro</string>
+    <string name="store_info_text">Information</string>
+    <string name="store_phone_text">Tel</string>
+    <string name="store_admin_text">Admin Info</string>
+    <string name="store_locationinfo_text">Location</string>
+    <string name="piece1_text">" Piece"</string>
+    <string name="hanbok_rule">How to wear Hanbok</string>
+    <string name="hanbok_guideline">Free Tour Guidelines\nfor Hanbok</string>
+</resources>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "260740177306",
+    "firebase_url": "https://dobitnarae-2ea6b.firebaseio.com",
+    "project_id": "dobitnarae-2ea6b",
+    "storage_bucket": "dobitnarae-2ea6b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:260740177306:android:c3345003ffa61081",
+        "android_client_info": {
+          "package_name": "com.example.dobitnarae"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "260740177306-fpt9cfnsa57cfdmj3ijut1nms0qs23uu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR0W8gv_eNHKWh9wW3RQKdFhGs9s92U2s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

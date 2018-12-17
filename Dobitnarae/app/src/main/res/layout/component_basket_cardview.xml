@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/basket_cardview"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_margin="5dp"
+        card_view:cardCornerRadius="3dp"
+        card_view:cardElevation="0dp">
+
+        <ImageView
+            android:id="@+id/basket_clothes_delete_btn"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="end"
+            android:layout_margin="5dp"
+            android:src="@drawable/ic_action_delete"
+            android:elevation="1dp"/>
+
+        <LinearLayout
+            android:id="@+id/basket_clothes_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#d7d7d7"
+            android:padding="0.5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#fff">
+
+                <ImageView
+                    android:id="@+id/basket_clothes_image"
+                    android:layout_width="match_parent"
+                    android:scaleType="centerCrop"
+                    android:layout_height="170dp" />
+
+                <TextView
+                    android:gravity="center"
+                    android:id="@+id/basket_clothes_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    android:text="테스트"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+                    <TextView
+                        android:id="@+id/basket_clothes_cnt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/appMainColor"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:text="12"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/piece1_text"
+                        android:textColor="@color/appMainColor"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
